@@ -268,7 +268,7 @@ def playlists_sql_table():
                     Title varchar(100),
                     Channel_Id varchar(100),
                     Channel_Title text,
-                    PublishedAt timestamp,
+                    PublishedAt varchar(100),
                     Video_count bigint)''')
 
         myconnection.commit()
