@@ -256,7 +256,7 @@ def channels_sql_table():
 
 def playlists_sql_table():
 
-    myconnection = pymysql.connect(host='localhost',user='root',passwd='Thanish@234',database = 'youtube_data')
+    myconnection = pymysql.connect(host='localhost',user='root',passwd='jk@03',database = 'youtube_data')
     cur = myconnection.cursor()
 
     drop_query = "drop table if exists playlists"
